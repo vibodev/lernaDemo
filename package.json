@@ -9,8 +9,13 @@
     }
   },
   "lint-staged": {
-    "packages/**/*.js": [
-      "standard",
+    "packages/*/src/**/*.css": [
+      "stylelint --cache --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "packages/*/src/**/*.js": [
+      "standard --fix",
       "git add"
     ]
   },
