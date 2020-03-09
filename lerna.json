@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "ignoreChanges": [
-    "packages/*/CHANGELOG.md"
+    "packages/*/CHANGELOG.md",
+    "packages/*/package-lock.json"
   ],
   "version": "independent"
 }
