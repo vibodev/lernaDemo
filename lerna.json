@@ -5,11 +5,14 @@
   ],
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "**/CHANGELOG.md",
-        "**/package-lock.json"
-      ]
+    },
+    "version": {
+      "conventionalCommits": true
     }
   },
+  "ignoreChanges": [
+    "**/CHANGELOG.md",
+    "**/*-lock.json"
+  ],
   "version": "independent"
 }
