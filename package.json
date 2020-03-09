@@ -3,7 +3,8 @@
   "npmClient": "yarn",
   "private": true,
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "p":"lerna publish"
   },
   "config": {
     "commitizen": {
