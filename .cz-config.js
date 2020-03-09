@@ -21,7 +21,7 @@ module.exports = {
     { name: '公共模块' },
     { name: '教具' },
     { name: '渲染模块' },
-    { name: '发版', value:'release' }
+    { name: 'release',}
   ],
   messages: {
     type: '选择更改类型:\n',
