@@ -9,12 +9,7 @@
     }
   },
   "lint-staged": {
-    "*.css": [
-      "stylelint --fix",
-      "prettier --write",
-      "git add"
-    ],
-    "*.{js,jsx}": [
+    "packages/**/*.js": [
       "standard",
       "git add"
     ]
