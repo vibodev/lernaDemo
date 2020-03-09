@@ -1,0 +1,31 @@
+{
+  "name": "root",
+  "npmClient": "yarn",
+  "private": true,
+  "scripts": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.css": [
+      "stylelint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "standard",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "lerna": "^3.20.2",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1",
+    "standard": "^14.3.1",
+    "stylelint": "^13.2.0"
+  },
+  "dependencies": {}
+}
