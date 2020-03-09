@@ -3,9 +3,13 @@
   "packages": [
     "packages/*"
   ],
-  "ignoreChanges": [
-    "packages/*/CHANGELOG.md",
-    "packages/*/package-lock.json"
-  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "packages/*/CHANGELOG.md",
+        "packages/*/package-lock.json"
+      ]
+    }
+  },
   "version": "independent"
 }
