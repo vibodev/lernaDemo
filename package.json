@@ -2,10 +2,18 @@
   "name": "root",
   "npmClient": "yarn",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
@@ -20,12 +28,17 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.3",
+    "cz-lerna-changelog": "^2.0.2",
     "husky": "^4.2.3",
     "lerna": "^3.20.2",
     "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
     "standard": "^14.3.1",
-    "stylelint": "^13.2.0"
+    "stylelint": "^13.2.0",
+    "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {}
 }
