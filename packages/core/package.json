@@ -22,5 +22,6 @@
   "dependencies": {
     "@slider/common": "^0.0.1-alpha.1",
     "webpack": "^4.42.0"
-  }
+  },
+  "gitHead": "eb187f35a5e6e02b40558c57111d8ccd9108c6a7"
 }

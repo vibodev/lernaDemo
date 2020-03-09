@@ -24,5 +24,6 @@
     "commander": "^4.1.1",
     "inquirer": "^7.0.6",
     "webpack": "^4.42.0"
-  }
+  },
+  "gitHead": "eb187f35a5e6e02b40558c57111d8ccd9108c6a7"
 }
