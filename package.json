@@ -41,6 +41,5 @@
     "standard": "^14.3.1",
     "stylelint": "^13.2.0",
     "stylelint-config-standard": "^20.0.0"
-  },
-  "dependencies": {}
+  }
 }
