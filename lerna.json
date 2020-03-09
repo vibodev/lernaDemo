@@ -6,13 +6,17 @@
   "command": {
     "publish": {
       "ignoreChanges": [
-        "packages/**/CHANGELOG.md",
-        "packages/**/*-lock.json"
+        "./packages/**/CHANGELOG.md",
+        "./packages/**/package-lock.json"
       ]
     },
     "version": {
       "conventionalCommits": true
     }
   },
+  "ignoreChanges": [
+    "**/CHANGELOG.md",
+    "**/package-lock.json"
+  ],
   "version": "independent"
 }
