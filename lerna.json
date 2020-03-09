@@ -6,8 +6,8 @@
   "command": {
     "publish": {
       "ignoreChanges": [
-        "CHANGELOG.md",
-        "package-lock.json"
+        "**/CHANGELOG.md",
+        "**/package-lock.json"
       ]
     }
   },
