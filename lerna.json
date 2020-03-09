@@ -11,7 +11,9 @@
       ]
     },
     "version": {
-      "conventionalCommits": true
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "message": "chore(release): %s"
     }
   },
   "ignoreChanges": [
