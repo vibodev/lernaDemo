@@ -5,6 +5,7 @@
   ],
   "command": {
     "publish": {
+      "access": "public",
       "registry": "",
       "ignoreChanges": [
         "**/CHANGELOG.md",
