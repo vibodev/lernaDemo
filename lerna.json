@@ -5,10 +5,13 @@
   ],
   "command": {
     "publish": {
+      "access": "public",
+      "registry": "",
       "ignoreChanges": [
         "**/CHANGELOG.md",
         "**/package-lock.json"
-      ]
+      ],
+      "directory": "dist"
     },
     "version": {
       "allowBranch": "master",

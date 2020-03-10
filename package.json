@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "commit": "git-cz",
-    "p":"lerna publish"
+    "install": "lerna bootstrap",
+    "clean": "lerna clean",
+    "publish": "yarn build && lerna publish",
+    "build":"lerna exec --scope @slider/sdk-loader -- yarn build"
   },
   "config": {
     "commitizen": {
