@@ -38,6 +38,7 @@
     "commitlint-config-cz": "^0.13.0",
     "cz-customizable": "^6.2.0",
     "cz-lerna-changelog": "^2.0.2",
+    "glob": "^7.1.6",
     "husky": "^4.2.3",
     "lerna": "^3.20.2",
     "lint-staged": "^10.0.8",

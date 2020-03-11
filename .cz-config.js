@@ -1,3 +1,16 @@
+const glob = require('glob')
+const path = require('path')
+// 载入包
+let scopes = []
+glob('packages/*', {}, function (er, files) {
+  files.forEach(item => {
+    scopes.push({
+      name: path.basename(item)
+    })
+  })
+})
+scopes.push({ name: 'project' },{ name: 'release' })
+//
 module.exports = {
   types: [
     { value: 'init', name: 'init:     初始提交' },
@@ -16,13 +29,7 @@ module.exports = {
     { value: 'minus', name: 'minus:    版本回退' },
     { value: 'del', name: 'del:      删除代码/文件' }
   ],
-  scopes: [
-    { name: '工作流' },
-    { name: '公共模块' },
-    { name: '教具' },
-    { name: '渲染模块' },
-    { name: 'release',}
-  ],
+  scopes: scopes,
   messages: {
     type: '选择更改类型:\n',
     scope: '更改的范围:\n',

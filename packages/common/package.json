@@ -7,6 +7,7 @@
   "license": "ISC",
   "main": "index.js",
   "module": "dist/index.es5.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "lib": "dist",
     "test": "__tests__"
@@ -23,5 +24,5 @@
   "dependencies": {
     "webpack": "^4.42.0"
   },
-  "gitHead": "eb187f35a5e6e02b40558c57111d8ccd9108c6a7"
+  "gitHead": "58a277648d483f766f0a8d1b329ad3483b8f7171"
 }
