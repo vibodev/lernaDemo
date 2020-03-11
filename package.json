@@ -7,7 +7,7 @@
     "clean": "rimraf node_modules && lerna clean",
     "install": "lerna bootstrap",
     "build": "lerna exec --scope @slider/sdk-loader -- yarn build",
-    "release": "lerna publish from-git"
+    "release": "lerna publish"
   },
   "config": {
     "commitizen": {
