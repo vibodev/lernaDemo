@@ -1,6 +1,6 @@
 {
   "name": "@slider/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Vibo <vibo.dev@gmail.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@slider/common": "^0.0.1",
+    "@slider/common": "^0.0.2",
     "webpack": "^4.42.0"
   },
   "gitHead": "eb187f35a5e6e02b40558c57111d8ccd9108c6a7"

@@ -1,12 +1,12 @@
 {
   "name": "@slider/common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Vibo <vibo.dev@gmail.com>",
   "homepage": "",
   "license": "ISC",
   "main": "index.js",
-  "module":"dist/index.es5.js",
+  "module": "dist/index.es5.js",
   "directories": {
     "lib": "dist",
     "test": "__tests__"
